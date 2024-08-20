@@ -1,2 +1,2 @@
-# student-attendance
+# Student-Attendance
 Student Attendance is an application to make it easier for teachers to take attendance from students
