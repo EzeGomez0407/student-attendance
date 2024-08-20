@@ -1,2 +1,2 @@
 # student-attendance
-Student Attendance es una applicación para facilitar a los profesores la toma de asistencia a los alumnos
+"student attendance" is an application to make it easier for teachers to take attendance from students
