@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/EzeGomez0407/student-attendance#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "uuid": "^10.0.0"
   }
 }
