@@ -7,7 +7,7 @@ const keyRouteAttendence = {};
 
 // Ruta
 router.post("/validate-attendence", (req, res) => {
-  // Datos del alumno que servira para comprobarlos dentro de la hoja de calculo
+  // Datos del alumno que servira para comprobarlos dentro de la hoja de calculoo
   const { name, dni, carrera } = req.body;
 
   // Se toma la clave de acceso que se encuentra por query para comprobar si es valida
