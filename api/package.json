@@ -1,0 +1,26 @@
+{
+  "name": "student-attendance",
+  "version": "1.0.0",
+  "description": "Student Attendance is an application to make it easier for teachers to take attendance from students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EzeGomez0407/student-attendance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EzeGomez0407/student-attendance/issues"
+  },
+  "homepage": "https://github.com/EzeGomez0407/student-attendance#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
