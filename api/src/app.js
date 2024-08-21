@@ -1,6 +1,11 @@
 require("dotenv").config();
 const express = require("express");
 const server = express();
+const cors = require("cors");
+
+// Middlewares
+server.use(express.json());
+server.use(cors());
 
 // Routes
 const index = require("./routes/index");
