@@ -1,0 +1,16 @@
+.section1{
+    height: calc(100vh - 65px)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.btn{
+    width: 100%;
+}
+
+.d-flex{
+    width: 300px;
+}

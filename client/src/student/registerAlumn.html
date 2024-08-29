@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/client/src/styles/student/register.css">
+    <link rel="stylesheet" href="/client/src/styles/student/commonStyles.css">
     <link rel="stylesheet" href="/client/src/framework/Bootstrap/css/bootstrap.min.css">
     <title>Student Register</title>
 </head>
 
 <body>
     <header class="header">
-
         <nav class="navbar-color navbar navbar-expand-lg ">
             <div class="container-fluid ">
                 <h2 class="logo ">Student Attendance</h2>
@@ -25,29 +25,19 @@
                         <li class="nav-item">
                             <a class="link nav-link active text-center" href="/client/src/index.html">Principal</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="link nav-link active text-center" href="/client/src/student/registerAlumn.html">
-                                Registrarme </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="link nav-link active text-center"
-                                href="/client/src/student/loginAlumno.html">Iniciar Sesión</a>
-                        </li>
                     </ul>
                 </div>
-
             </div>
         </nav>
-
     </header>
-    <section>
+    <section class="section1">
         <div class="custom-container container rounded-5">
             <h3 class="col-md-12 text-center">ALUMNO</h3>
             <hr>
             <form class="row g-3" action="">
                 <div class="col-md-12">
                     <label for="nombre" class="form-label">NOMBRE Y APELLIDO</label>
-                    <input class="form-control" type="text" name="nombre" id="nombre" >
+                    <input class="form-control" type="text" name="nombre" id="nombre">
                 </div>
 
                 <div class="col-md-12">
@@ -60,24 +50,25 @@
                     <input class="form-control" type="password" name="pass" id="pass">
                 </div>
 
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <label for="dni" class="form-label">DNI</label>
                     <input class="form-control" type="number" name="dni" id="dni">
                 </div>
 
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <label for="career" class="form-label">CARRERA</label>
                     <input class="form-control" type="text" name="career" id="career">
                 </div>
-
+                <hr>
                 <div class="col-md-12 ">
-                    <button type="submit" class="btn  form-control bg-black">REGISTRAR</button>
+                    <button type="submit" class="btn  form-control bg-black text-white">REGISTRAR</button>
+                </div>
+                <div class="col-12">
+                    <p>¿Ya tienes una cuenta? <a href="/client/src/student/loginAlumno.html">Ingresar aquí</a></p>
                 </div>
             </form>
         </div>
-
     </section>
-    <script src="/client/src/js/student/register.js"></script>
     <script src="/client/src/framework/Bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 

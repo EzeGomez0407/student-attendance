@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*Estilos de cabezera*/
+.navbar-color{
+    border-bottom: 2px solid #000;
+} 
+
+/* modificaciones de los links para el efecto*/
+.link{
+    padding: 10px!important;
+    border-radius: 15px;
+    font-weight: bold!important;
+    transition: 1s!important;
+}
+
+/* Efectos de boton */
+.link:hover{
+    color:rgb(245, 247, 247)!important;
+    background-color: #000;
+    padding: 10px!important;
+    box-sizing: border-box;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* agregando color al icono de menu*/
+.icons-color{
+    border: 2px solid #000!important;
+ }
