@@ -1,0 +1,30 @@
+body{
+    height: 100vh!important;
+}
+
+/* agregando medidas y sombras al contenedor de los formularios */
+.custom-container{
+    width: 90%!important;
+    max-width: 500px!important;
+    border: 2px solid #000!important;
+    padding: 40px 40px!important;
+    box-shadow: 0 4px 28px rgba(0,0,0,0.7);  
+      
+}
+
+/* ajustando medida para la section de login */
+.section1{
+    height: calc(100% - 65px)!important; 
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    overflow: hidden!important;
+    flex-direction: column;
+}
+
+/* agregando color de borde de los input al ser precionado*/
+.form-control:focus{
+    border-color: #101110!important; /* Cambia el color del borde */
+    box-shadow: 0 0 0 0.2rem rgba(2, 2, 2, 0.30)!important; /* Añade un resplandor alrededor del borde */
+    outline: none!important; /* Elimina el borde de enfoque predeterminado */
+}

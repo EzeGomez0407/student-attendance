@@ -4,38 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/client/src/framework/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/client/src/styles/student/commonStyles.css">
+    <link rel="stylesheet" href="/client/src/styles/student/login.css">
     <title>Student Login</title>
 </head>
 
 <body>
-    <header>
-        <h2>Student Attendance</h2>
-        <ul>
-            <li><a href="/client/src/index.html">Principal</a></li>
-            <li><a href="/client/src/student/registerAlumn.html"> Registrarme </a></li>
-            <li><a href="/client/src/student/loginAlumno.html">Iniciar Sesión</a></li>
-        </ul>
+    <header class="header">
+        <nav class="navbar-color navbar navbar-expand-lg ">
+            <div class="container-fluid ">
+                <h2 class="logo ">Student Attendance</h2>
+                <button class="icons-color navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=" navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="listas navbar-nav ms-auto mb-2 mb-lg-0 gap-2 " id="navLinks">
+                        <li class="nav-item">
+                            <a class="link nav-link active text-center" href="/client/src/index.html">Principal</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <section>
-        <h3>Alumno</h3>
-        <form action="">
+    <section class="section1">
+        <div class="custom-container container rounded-5">
+            <h3 class="col-md-12 text-center">ALUMNO</h3>
+            <hr>
+            <form action="" class="row g-3">
 
-            <section>
-                <label for="email">D.N.I/Email</label>
-                <input type="text" name="email" id="email" required>
-            </section>
-            
-            <section>
-                <label for="pass">Contraseña</label>
-                <input type="password" name="pass" id="pass">
-            </section>
+                <div class="col-md-12">
+                    <label for="email" class="form-label">DNI / EMAIL</label>
+                    <input class="form-control" type="text" name="email" id="email" required>
+                </div>
 
-            <section>
-                <button type="button">Entrar</button>
-            </section>
-        </form>
+                <div class="col-md-12">
+                    <label for="pass" class="form-label">CONTRASEÑA</label>
+                    <input class="form-control" type="password" name="pass" id="pass">
+                </div>
+                <hr>
+                <div class="col-md-12">
+                    <button type="submit" class="btn form-control bg-black text-white">ENTRAR</button>
+                </div>
+                <div class="col-12">
+                    <p>¿No tienes una cuenta? <a href="/client/src/student/registerAlumn.html">Create una</a></p>
+                </div>
+            </form>
+        </div>
+
     </section>
-
+    <script src="/client/src/framework/Bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,3 @@
-
-
 /* agregando color de borde de los input al ser precionado*/
 .form-control:focus{
     border-color: #101110!important; /* Cambia el color del borde */
@@ -18,5 +16,3 @@
     box-shadow: 0 4px 28px rgba(0, 0, 0, 0.7);
     margin-bottom: 10px!important;
 }
-
-
